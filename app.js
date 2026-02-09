@@ -15,7 +15,7 @@ app.use("/courts", courtsRoutes);
 app.use("/auth", authRoutes);
 
 app.get("/", (req, res) => {
-  res.json({ message: "API de reservas de canchas funcionando 🚀" });
+  res.json({ message: "API 4Play corriendo ✅" });
 });
 
 const PORT = process.env.PORT || 3000;
